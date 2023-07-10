@@ -1,0 +1,12 @@
+.table-container {
+    width: 100%;
+    /* Full width by default */
+
+    /* Shrink the table on smaller screens */
+    @media (max-width: 768px) {
+        width: 80%;
+        /* Adjust the width as per your requirement */
+        font-size: 0.8rem;
+        /* Example: Reduce font size on smaller screens */
+    }
+}
